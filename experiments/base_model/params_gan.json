@@ -1,0 +1,18 @@
+{
+    "learning_rate": 1e-4,
+    "batch_size": 30,
+    "no_epochs": 7,
+    "optimizer": "rmsprop",
+    "checkpoint": "full",
+    "checkpoint_fp": "checkpoint",
+    "log_fp": "logs",
+    "training_tfrecord_fp": "F:/data/fruits_360/fruits-360/tf_data/train.rec",
+    "testing_tfrecord_fp": "F:/data/fruits_360/fruits-360/tf_data/test.rec",
+    "training_fp": "F:/data/fruits_360/fruits-360/split/train/training_files.csv",
+    "testing_fp": "F:/data/fruits_360/fruits-360/split/test/testing_files.csv",
+    "performance_metric" : ["acc"],
+    "loss_function" : "categorical_crossentropy",
+    "evaluate_on_validation" : 0,
+    "input_dropout" : 0.8,
+    "layer_dropout" : 0.3
+}
